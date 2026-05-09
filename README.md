@@ -12,7 +12,7 @@ Checks staged files for non-ASCII characters. Exits 0 when no matching files are
 
 ### Option A: Lefthook remote (recommended)
 
-Add to your `lefthook.yml` — no flake input needed, just the wrapper binary in your devShell:
+Add to your `lefthook.yml` - no flake input needed, just the wrapper binary in your devShell:
 
 ```yaml
 remotes:
@@ -58,7 +58,7 @@ export LEFTHOOK_ASCII_ONLY_TIMEOUT=60
 
 ## Development
 
-The repo includes an `.envrc` for [direnv](https://direnv.net/) — entering the directory automatically loads the devShell with all dependencies:
+The repo includes an `.envrc` for [direnv](https://direnv.net/) - entering the directory automatically loads the devShell with all dependencies:
 
 ```bash
 cd nix-lefthook-ascii-only  # direnv loads the flake

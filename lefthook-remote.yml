@@ -1,0 +1,10 @@
+---
+pre-commit:
+  commands:
+    ascii-only:
+      run: timeout ${LEFTHOOK_ASCII_ONLY_TIMEOUT:-30} lefthook-ascii-only {staged_files}
+
+pre-push:
+  commands:
+    ascii-only:
+      run: timeout ${LEFTHOOK_ASCII_ONLY_TIMEOUT:-30} lefthook-ascii-only {push_files}

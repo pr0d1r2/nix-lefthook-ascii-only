@@ -2,7 +2,7 @@
 # Lefthook-compatible ASCII-only file checker.
 # Detects non-ASCII characters in staged files.
 # Usage: lefthook-ascii-only file1 [file2 ...]
-# NOTE: sourced by writeShellApplication — no shebang or set needed.
+# NOTE: sourced by writeShellApplication - no shebang or set needed.
 
 if [ $# -eq 0 ]; then
     exit 0
